@@ -1,0 +1,197 @@
+body{
+	background-color:#fff;
+	color: black;
+}
+#principal{
+	width: 80%;
+	height: auto;
+	float: left;
+	margin:0 10% 0 10%;	
+	padding: 30px;
+	background-color: #ece9e9;
+
+}
+section,footer{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+}
+header{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+#divcab{
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+  #izq, #der {
+	position: absolute;
+	width: 50px;
+	height: 80px;
+	left:0px;
+	top:110px;
+	z-index: 999;
+}
+
+nav{
+	width: 90%;
+	margin:0 5% 0 5%;
+	height: auto;
+	float: left;
+	text-align:right;
+}
+.item, .itemcocina{
+	width:15%;
+	margin:10px 0 10px 0;
+	height:20px;
+	float:left;
+	text-align:center;
+	color: black;
+	text-decoration:none;
+}
+
+.item:hover{
+	color:rgba(241, 180, 10, 0.822);
+	
+}
+#h1cab{
+	text-align: center;
+	color:rgba(241, 180, 10, 0.822);
+}
+
+#imgcab{
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin:0;
+}
+#imgcab1{
+	width: 50%;
+	height: 300px;
+	margin-left: 300px;
+}
+#pf, #ph {
+	width: 50%;
+	height: 20px;
+	float: left;
+	border-radius: 10px;
+	
+}
+.h2cab {
+	text-align: center;
+	color:rgba(241, 180, 10, 0.822);
+}
+#ph2{
+	text-align:justify;
+	color:rgb(0, 0, 0);
+	margin-right:49%;
+	margin-left:1%;
+	float:left;
+}
+
+#img_cocina{
+	width: 60%;
+	height: 300px;
+	margin: 0 20% 0 20%;
+	border:4px solid;
+	border-radius: 20px;
+}
+
+.blok{
+	width: 22%;
+	min-height: 200px;
+	height: auto;
+	border:1px solid;
+	float: left;
+	margin:1%;
+	color: gray;
+}
+
+.imgblok{
+	width:98%;
+	height:250px;
+	margin:3px 1% 3px 1%;
+	float:left;
+}
+
+.pblok{
+	text-align:justify;
+	font-size:16px;
+	margin-left:2px;
+	visibility:hidden;
+	height:0px;
+}
+#imgpie{
+	width: 100%;
+	height: 70px;
+	float: left;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#ventana{
+	position: absolute;
+	border-radius: 10px;
+	background-color: gray;
+	top:0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+#imgventana{
+	border-radius: 10px;
+	top:0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+	padding: 30px 0px;
+}
+#imagen {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+	padding: 0px 20px;
+}
+.carousel button{
+	border: none;
+	background: transparent;
+	padding: 20px;
+}
+.carousel button:hover{
+
+	background:rgba(241, 180, 10, 0.822);
+	border-radius: 100%;
+	height: 100px;
+	margin-top: 100px;
+	
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 60px;
+	border: 1px solid #ccc;
+	align-items: center;
+	text-align: center;
+	
+}
+footer .redes img{
+	width: 30px;
+}
+
+ 
+
